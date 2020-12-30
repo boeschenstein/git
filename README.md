@@ -66,17 +66,17 @@ Version v2.29.0 upgrades existing users of [Git Credential Manager for Windows](
 `git remote add origin https://fabrikam.visualstudio.com/Fabrikam/_git/FabrikamFiber`\
 
 `git fetch or git fetch <remote_alias>` get data --> source is called origin\
-	needs usually following statement to get the files: (merge this work in your branch)\
-		`git checkout -b <new_local_branch> <remote_alias>/<new_local_branch>`\
-	or merge in existing branch:\
-		`git merge <remote_alias>/<current_local_branch>`\
+  needs usually following statement to get the files: (merge this work in your branch)\
+    `git checkout -b <new_local_branch> <remote_alias>/<new_local_branch>`\
+  or merge in existing branch:\
+    `git merge <remote_alias>/<current_local_branch>`\
     
 `git push <remote_alias> <your_branch>` store data to remote branch\
 `git push origin master`\
 `git clone -o <url or path>` creates alias 'origin' for remote url or path\
 `git pull` update local files with git server files\
 `git pull --rebase origin master` you can do this after git push failed due to conflict\
-	-> check the differences now in all files !! comments like this added: <<<<<<< HEAD
+  -> check the differences now in all files !! comments like this added: <<<<<<< HEAD
 	
 ### Remove a file (stage?? branch??)
 
