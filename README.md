@@ -2,6 +2,23 @@
 
 > GIT Information and Hints
 
+## Strategies/Workflows
+
+### Branch strategy "GitLab Flow"
+
+It is a simple branch strategy and good for smaller developer team: <https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/>. 
+
+### The top six Git workflows to strengthen software development
+
+1. Centralized Git workflow
+2. Feature branching Git workflow
+3. Trunk-based development Git workflow
+4. Personal branching Git workflow
+5. Forking Git workflow
+6. GitFlow Git workflow
+
+Source: <https://about.gitlab.com/topics/version-control/what-is-git-workflow/>
+
 ## Git Client: "Git Extensions"
 
 Silly name, but free and Open Source: http://gitextensions.github.io/
