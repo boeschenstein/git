@@ -21,7 +21,7 @@ Source: <https://about.gitlab.com/topics/version-control/what-is-git-workflow/>
 
 ## Git Client: "Git Extensions"
 
-Silly name, but free and Open Source: http://gitextensions.github.io/
+Silly name, but free and Open Source and no account required: http://gitextensions.github.io/
 
 ## Git Credential Manager Core
 
@@ -80,17 +80,20 @@ Version v2.29.0 upgrades existing users of [Git Credential Manager for Windows](
 
 `git remote -v` or `git remote show` or `git ls-remote`: shows where origin points to\
 `git remote add <remote_alias> <url>`\
-`git remote add origin https://fabrikam.visualstudio.com/Fabrikam/_git/FabrikamFiber`\
+`git remote add origin https://fabrikam.visualstudio.com/Fabrikam/_git/FabrikamFiber`
 
 `git fetch or git fetch <remote_alias>` get data --> source is called origin\
   needs usually following statement to get the files: (merge this work in your branch)\
     `git checkout -b <new_local_branch> <remote_alias>/<new_local_branch>`\
   or merge in existing branch:\
-    `git merge <remote_alias>/<current_local_branch>`\
+    `git merge <remote_alias>/<current_local_branch>`
     
 `git push <remote_alias> <your_branch>` store data to remote branch\
 `git push origin master`\
-`git clone -o <url or path>` creates alias 'origin' for remote url or path\
+`git push --all origin` pushes all local branches in one go
+	
+`git clone -o <url or path>` creates alias 'origin' for remote url or path
+	
 `git pull` update local files with git server files\
 `git pull --rebase origin master` you can do this after git push failed due to conflict\
   -> check the differences now in all files !! comments like this added: <<<<<<< HEAD
@@ -108,9 +111,18 @@ Version v2.29.0 upgrades existing users of [Git Credential Manager for Windows](
 `git log`\
 `git show HEAD`
 
+## Migration tool TFS -> git
+
+https://github.com/git-tfs/git-tfs
+
+>BEWARE: we had issues with git-tfs: please check all relevant branches and do a full compare 
+	
+(we lost all new files and file deletions in the last branch created a day before)
+
 ## Links
 
 - Documentation: https://git-scm.com/doc
 - Most common workflows: https://www.atlassian.com/git/tutorials/comparing-workflows 
 - https://ohshitgit.com/
 - https://github.com/git/git/
+- Migration tool TFS -> git: https://github.com/git-tfs/git-tfs
