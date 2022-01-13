@@ -117,7 +117,8 @@ https://github.com/git-tfs/git-tfs
 
 >BEWARE: we had issues with git-tfs: please check all relevant branches and do a full compare 
 	
-(we lost all new files and file deletions in the last branch created a day before)
+fyi: We lost all new files and file deletions in the latest branch created a day before. Older branches had no issues.
+(v.0.32.0, 13. January 2022)
 
 ## Links
 
