@@ -127,3 +127,5 @@ fyi: We lost all new files and file deletions in the latest branch created a day
 - https://ohshitgit.com/
 - https://github.com/git/git/
 - Migration tool TFS -> git: https://github.com/git-tfs/git-tfs
+- Create a good ReadMe: <https://learn.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops>
+
