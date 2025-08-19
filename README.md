@@ -4,6 +4,16 @@
 
 ## Strategies/Workflows
 
+### Flows
+
+- Git Flow: The Git Flow is a feature branch based workflow.
+- Github Flow: GitHub introduced a simpler flow that enables the creation of feature-specific branches that are then merged into a master branch.
+- Gitlab Flow: GitLab flow is yet a further refinement of Git Flow and GitHub Flow.
+
+<img width="1718" height="855" alt="grafik" src="https://github.com/user-attachments/assets/98ba2728-640c-4ef5-ab0e-1238d8b701e4" />
+
+Source: <https://university.gitlab.com/learn/course/gitlab-with-git-essentials-s2/gitlab-workflow/git-branching-strategies?page=4>
+
 ### Branch strategy "GitLab Flow"
 
 It is a simple branch strategy and good for smaller developer team: <https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/>. 
